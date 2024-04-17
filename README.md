@@ -11,6 +11,12 @@ API created as part of the node.js course with express and sequelize
 ---
 
 ## Description
+The purpose od this API is to simulate a management of a course plataform, with your teachers, students, enrollments, courses and others using sequelize ORM to manage a sqlite database.
+
+## Learnings
+During this course, I learned how to use sequelize ORM, create models, simple and complex queries, use services to decouple database access from controllers, create reusable code snippets, avoiding code rewriting.
+I think this ORM is a simple way to manage SQL databases, but it doesn't replace the need to learn SQL.
+I also learned the concept of helper functions, how and when to use these functions.
 
 
 ## Comments
