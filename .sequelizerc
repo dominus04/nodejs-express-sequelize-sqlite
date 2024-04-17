@@ -1,0 +1,13 @@
+/*
+    This config file was created to help sequelize find the config, models, seeders and migrations directories.
+    It is necessary because sequelize-cli always tries to apply commands in the base dir not in src.
+*/
+
+const path = require('path');
+
+module.exports = {
+    'config': path.resolve('./src/database/config', 'config.json'),
+    'models-path': path.resolve('./src/database/models'),
+    'seeders-path': path.resolve('./src/database/seeders'),
+    'migrations-path': path.resolve('./src/database/migrations')
+}

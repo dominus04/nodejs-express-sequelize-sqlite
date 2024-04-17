@@ -8,4 +8,11 @@
 
 API created as part of the node.js course with express and sequelize
 
+---
+
 ## Description
+
+
+## Comments
+
+Commom JS was used 'cause sequelize v6, works better with commomjs than ES Modules.
